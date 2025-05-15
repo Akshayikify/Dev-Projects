@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-image: url(NEUMORPHIC_CIRCLES_BACKGROUND.jpg);
+    background-size: cover;
+    font-family: Poppins;
+}
+.heading{
+    display: flex;
+    place-content: center;
+}
+.heading h1{
+    color: rgb(227, 203, 24);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    width: 300px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 6px 7px 3px grey;
+}
+.result{
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons1{
+    width: 280px;
+    height: 265px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    background-color: coral;
+    display:grid;
+    grid-template-columns:auto auto auto ;
+    padding: 10px;
+    justify-items:center;
+}
+.buttons1 button{
+    width: 50px;
+    height: 40px;
+    font-size: 25px;
+}
+.Accresult{
+    width: 250px;
+    height: 90px;
+    background-color: aliceblue;
+}
+.input{
+    width: 250px;
+    height : 45px;
+    font-size: 20px;
+    overflow-x: hidden;
+}
